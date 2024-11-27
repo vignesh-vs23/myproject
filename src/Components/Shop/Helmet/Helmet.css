@@ -1,0 +1,138 @@
+.Helmet{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-areas: 
+    'sb1 m m'
+    'sb1 m m';
+   
+}
+.sidebar_container{
+    grid-area: sb1;
+    position: sticky;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    padding: 10px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     border: 1px solid lightgray;   
+}
+.sidebar input[type=checkbox]{
+    display: inline-block;
+    margin: 10px 10px;
+    margin-left: 20px;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.category:hover{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.category .icon{
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    
+}
+.category_link {
+    cursor: pointer;
+    color: black;
+    flex: 70%;
+    width: 100%;
+    text-decoration: none;
+}
+.helmet_container{
+    grid-area: m;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px 30px;
+    margin: 0 10px;
+    overflow: hidden;
+    .helmet{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        margin: 10px;
+        border: 0.5px solid lightgray;
+        border-radius: 20px;
+        overflow: hidden;
+        .helmetimg_container{
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(241, 244, 245);
+            img{
+                height: 200px;
+                width: 180px;
+                margin-left: 30px;
+            }
+        }
+        .helmet_details_container{
+            padding: 5px 5px;
+            margin: 5px;
+            .helmet_detail{
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .ratings{
+                display: flex;
+                gap: 5px;
+                margin-bottom: 5px;
+                img{
+                    height: 15px;
+                    width: 15px;
+                }
+            }
+            .offer{
+                color: red;
+                font-size: 16px;
+                margin-right: 10px;
+            }
+            .price{
+                font-size: 16px;
+            }
+            .ogprice{
+                font-size: 12px;
+                display: block;
+                text-decoration:line-through;
+                color:rgb(95, 93, 93);
+                margin: 10px 0;
+            }
+            .deliverydate{
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .freedelivery{
+                display: block;
+                margin: 10px 0;
+            }
+            .addtocart_btn{
+                width: 60%;
+                height: 35px;
+                font-weight: bold;
+                font-size: 14px;
+                border-radius: 20px;
+                padding: 0px 20px;
+                margin-left: 20%;
+                margin-top: 10px;
+                background-color: yellow;
+                transition: 1s ease;
+                &:hover{
+                    cursor: pointer;
+                    background-color: grey;
+                    color: white;
+                }
+            }
+
+        }   
+    }
+}

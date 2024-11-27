@@ -1,0 +1,185 @@
+.stats_banner_container{
+    padding: 5px 40px;
+    background-color: whitesmoke;
+}
+#banner{
+    height: 750px;
+    width: 100%;
+}
+.homebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px;
+}
+.homebox img{
+    height: 500px;
+    width: 1200px;
+    padding: 20px 50px;
+    margin-left: 40px;
+}
+.homebox p{
+    padding: 0 60px;
+}
+.ranking h1{
+    text-align: center;
+}
+.btn_container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.btn_container button{
+    height: 40px;
+    width: 140px;
+    background-color:lightgray;
+    color:black;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 60%;
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color:white;
+        color: black;
+    }
+
+}
+.btn_container button:active{
+    background-color:transparent;
+    color: black;
+}
+.team_container{
+    margin:20px 5px;
+    padding: 20px 40px;
+}
+.mens_team_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 80px;   
+    
+}
+.mens_team{
+    display: flex;
+    gap: 15px;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    padding-left: 40px;
+    background-color: lightgray;
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+    
+}
+.mens_team img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.text h1{
+    font-size: 18px;
+}
+.text span{
+    font-size: 14px;
+    font-weight: bolder;
+    color:grey;
+}
+.womens_team_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 80px;   
+    
+}
+.womens_team{
+    display: flex;
+    gap: 25px;
+    margin: 5px 5px;
+    padding: 10px;
+    padding-left: 40px;
+    background-color: lightgray;
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+.womens_team img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.ipl{
+    margin:10px 5px;
+    padding: 0px 40px;
+
+    h1{
+        text-align: center;
+    }   
+}
+.iplteam_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 80px; 
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.ipl_team{
+    display: flex;
+    gap: 25px;
+    margin: 5px 5px;
+    padding: 10px;
+    padding-left: 40px;
+    background-color: lightgray;
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+        margin-top: 5px;
+    }
+}
+#rcb{
+    display: flex;
+    gap: 10px;
+    margin: 5px 5px;
+    padding: 10px;
+    padding-left: 40px;
+    background-color: lightgray;
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+
+    img{
+        height: 70px;
+        width: 50px;
+        border-radius: 50px;
+        margin-top: 5px;
+    }
+}

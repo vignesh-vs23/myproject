@@ -1,0 +1,36 @@
+.footer_container{
+    height: 470px;
+    width: auto;
+    background-color: black;
+    color:gray;
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-areas: 
+    "m1 m2 m3"
+    ;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    flex-wrap: nowrap;
+}
+.teams{
+    grid-area: m1;
+    padding: 10px 10px;
+    margin-left: 150px;
+}
+.guidline{
+    grid-area: m2;
+    margin-left: 100px;
+    padding: 10px 10px;
+}
+.support{
+    grid-area: m3; 
+    margin-left: 80px;  
+    padding: 10px 10px;
+}
+.teams,.guidline,.support h4{
+    font-size:medium;
+    font-weight: bolder;
+}
+footer h1{
+    color: white;
+}

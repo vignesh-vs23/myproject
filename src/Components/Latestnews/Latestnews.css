@@ -1,0 +1,32 @@
+.news_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.news_container1{
+    padding: 10px 10px;
+    margin: 8px 0;
+}
+.news_container1 img{
+    height: 450px;
+    width: 600px;
+    margin-top: -150px;
+}
+.news_container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px 10px;
+    margin: 8px 0;
+}
+.news_imagecontainer{
+    padding: 0 10px;
+    margin :8px 0;
+}
+.news_imagecontainer img{
+    height: 200px;
+    width: 300px;
+}
+.news_container1,.news_container2 p{
+    font-size: 14px;
+}
