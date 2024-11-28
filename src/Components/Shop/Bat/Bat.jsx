@@ -79,11 +79,11 @@ function Bat() {
                         <Link to="/Shop/Kitbag" className='category_link'>Kitbag</Link>
                     </div>
                 </div>
-                <div className='price'>
+                {/* <div className='price'>
                     <h2>Price</h2>
                     <label htmlFor="">$0-$500</label>
                     <input type="range"/>
-                </div>
+                </div> */}
             </div>
         </div>
             <div className='bat_container'>
